@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>Textutlis</h1>
+        <h1>Enter the text to anaylize below</h1>
         <textarea
           onChange={(e) => setCount(e.target.value)}
           value={count}
